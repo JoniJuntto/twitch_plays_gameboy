@@ -56,8 +56,19 @@ python -m twitch_game_control_bot
 
 ## Commands
 
-?a, ?b, ?l, ?r, ?start, ?select - Presses the corresponding gamepad button.
-?move <direction> <tiles> - Moves in the specified direction (up, down, left, right) for the specified number of tiles.
+Commands
+Gamepad Commands
+?a: Simulate pressing the "A" button
+?b: Simulate pressing the "B" button
+?l: Simulate pressing the "L" button
+?r: Simulate pressing the "R" button
+?select: Simulate pressing the "Select" button
+?start: Simulate pressing the "Start" button
+Movement Commands
+?move up [tiles]: Simulate moving up [tiles] times
+?move down [tiles]: Simulate moving down [tiles] times
+?move left [tiles]: Simulate moving left [tiles] times
+?move right [tiles]: Simulate moving right [tiles] times
 
 ## Contributing
 
